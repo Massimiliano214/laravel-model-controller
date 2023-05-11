@@ -1,1 +1,14 @@
 @import '~bootstrap/scss/bootstrap';
+
+body {
+    background-color: darkgoldenrod;
+
+    .card {
+        background-color: darkslategray;
+    }
+    
+    .myText {
+        color: coral;
+    }
+}
+

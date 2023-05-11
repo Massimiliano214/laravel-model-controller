@@ -11,13 +11,13 @@
 
             @foreach ($movies as $movie)
                     
-                <div class="card col-3 my-4" style="width: 18rem;">
+                <div class="card col-3 my-4 text-white" style="width: 18rem;">
                     <div class="card-body">
-                        <h4 class="card-title">Title: {{$movie->title}}</h4>
+                        <h4 class="card-title text-center">Title: {{$movie->title}}</h4>
                         <h5 class="card-text">Original Title: {{$movie->original_title}}</h5>
-                        <p class="card-text">Score: {{$movie->vote}}</p>
-                        <p class="card-text">Nationality: {{$movie->nationality}}</p>
-                        <p class="card-text">Release Date: {{$movie->date}}</p>
+                        <p class="card-text myText">Score: {{$movie->vote}}</p>
+                        <p class="card-text myText">Nationality: {{$movie->nationality}}</p>
+                        <p class="card-text myText">Release Date: {{$movie->date}}</p>
                     </div>
                 </div>
 
